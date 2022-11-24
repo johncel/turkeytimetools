@@ -5,7 +5,8 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
 # FILENAME='turkey_2020.csv'
-FILENAME='turkey_2021.csv'
+# FILENAME='turkey_2021.csv'
+FILENAME='turkey_2022.csv'
 use_last = 3
 
 ds = pd.read_csv(FILENAME, parse_dates=True, index_col='time')
